@@ -7,7 +7,7 @@ let IsShowingSubInfo = true;
 
 BtnHamb.addEventListener("click", ()=>{
         if(IsShowingSubInfo){
-            SubInfo.style.top = "10%"
+            SubInfo.style.top = "7%"
             IsShowingSubInfo = false
         }
         else{
