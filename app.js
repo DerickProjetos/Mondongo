@@ -16,6 +16,9 @@ app.get("/A-Deep-Dive-into-Quicken-Loans", (req, res)=>{
 app.get("/A-Comprehensive-Guide-to-Index-Funds", (req, res)=>{
     res.sendFile(__dirname + "/public/pages/UnlockingWealth.html")
 })
+
+
+
 app.get("/disclaime", (req, res)=>{
     res.sendFile(__dirname + "/public/pages/disclaime.html")
 })
@@ -25,7 +28,13 @@ app.get("/about", (req, res)=>{
 app.get("/contact", (req, res)=>{
     res.sendFile(__dirname + "/public/pages/contact.html")
 })
+app.get("/robots.txt", (req, res)=>{
 
-app.listen(port, ()=>{
-    console.log("")
+    res.sendFile(__dirname + "/robots.txt")
 })
+app.get("/sitemap.xml", (req, res)=>{
+
+    res.sendFile(__dirname + "/sitemap.xml")
+})
+
+app.listen(port)
