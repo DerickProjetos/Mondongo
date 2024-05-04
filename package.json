@@ -1,8 +1,20 @@
 {
-  "scripts": {
-    "start": "node app.js"
-   },
   "dependencies": {
-    "express": "^4.19.2"
-  }
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "socket.io": "^4.7.4"
+  },
+  "name": "secondtry",
+  "version": "1.0.0",
+  "main": "app.js",
+  "engines": {
+     "node": "18.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
