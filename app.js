@@ -1,4 +1,5 @@
 require('dotenv').config()
+
 var express = require("express")
 var app = express()
 
@@ -9,10 +10,10 @@ app.get("", (req, res)=>{
     res.sendFile(__dirname + "/public/pages/index.html")
 })
 
-app.get("/QuickenLoans", (req, res)=>{
+app.get("/A-Deep-Dive-into-Quicken-Loans", (req, res)=>{
     res.sendFile(__dirname + "/public/pages/QuickenLoans.html")
 })
-app.get("/UnlockingWealth", (req, res)=>{
+app.get("/A-Comprehensive-Guide-to-Index-Funds", (req, res)=>{
     res.sendFile(__dirname + "/public/pages/UnlockingWealth.html")
 })
 app.get("/disclaime", (req, res)=>{
