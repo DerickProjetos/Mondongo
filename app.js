@@ -11,10 +11,13 @@ app.get("", (req, res)=>{
 })
 
 app.get("/A-Deep-Dive-into-Quicken-Loans", (req, res)=>{
-    res.sendFile(__dirname + "/public/pages/QuickenLoans.html")
+    res.sendFile(__dirname + "/public/pages/0QuickenLoans.html")
 })
 app.get("/A-Comprehensive-Guide-to-Index-Funds", (req, res)=>{
-    res.sendFile(__dirname + "/public/pages/UnlockingWealth.html")
+    res.sendFile(__dirname + "/public/pages/1UnlockingWealth.html")
+})
+app.get("/Continuous-Learning", (req, res)=>{
+    res.sendFile(__dirname + "/public/pages/2ThePowerofContinuousLearning.html")
 })
 
 
