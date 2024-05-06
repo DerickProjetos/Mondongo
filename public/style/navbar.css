@@ -23,11 +23,17 @@
 }
 
 .subinfo *{
+
     text-align: center;
     width: 100%;
     border-bottom: 2px solid #F6F6F6;
     padding: 5%;
     font-size: 80%;
+    font-weight: 700;
+
+}
+.subinfo *:last-child{
+    border-bottom: 0px;
 }
 
 
