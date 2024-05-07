@@ -1,0 +1,181 @@
+.content{
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+    margin-top: 2%;
+  
+}
+
+.title{
+
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 130%;
+    width: 100%;
+    text-align: center;
+   font-family: sans-serif;
+    font-weight: 400;
+
+}
+.content .article{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: white;
+    width: 90%;
+    font-weight: 400;
+    
+}
+.content .article img{
+    width: 70%;
+    height: 60%;
+    border: 0.1px solid #505050;
+    margin-bottom: 2%;
+}
+.content .article h1{
+
+    width: 100%;
+    padding: 3%;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    text-align: center;
+
+}
+.content .article div{
+    margin-bottom: 14%;
+
+    
+}
+.content .article div .InfoText{
+    margin: 2%;
+    margin-left: 5%;
+    
+}
+.content .article div .InfoText *{
+    margin: 1.5%;
+    font-family: system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-weight: 300;
+}
+.content .article div .InfoText p a{
+    font-size: 100%;
+    font-family: system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    
+}
+
+
+.content .article div h1{
+
+    font-size: 120%;
+    font-weight: 400;
+
+}
+.content .article div h2{
+
+    font-size: 130%;
+    font-weight: 500;
+    margin-left: 6%;
+   
+
+  
+}
+
+.content .division{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    
+
+}
+.content .division .links{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    width: 100%;
+    height: 50ch;
+    text-decoration: underline;
+    margin-bottom: 4%;
+
+}
+
+
+.content .division .links *{
+    color: #1e73be;
+    text-decoration: underline;
+    margin: 7%;
+    width: 80%;
+
+}
+
+
+
+
+
+
+
+.next{
+    background: #67e1ff;
+    text-align: center;
+    padding: 3% 5%;
+    margin-bottom: 2%;
+    color: white;
+}
+
+
+
+body
+{
+
+    background: #f7f8f9;
+
+
+}
+@media (min-width: 619px) {
+    .info{
+        display: flex;
+
+    }
+ 
+}
+@media (max-width: 620px) {
+
+    .content{
+
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .content .article{
+        
+        width: 100%;
+    }
+    .content .article h1{
+        font-size: 140%;
+    }
+
+    .content .article div h2{
+        font-size: 120%;
+    }
+    .content .article div .InfoText *{
+
+        font-size: 120%;
+    }
+ 
+    .content .division{
+        margin-top: 6%;
+        width: 90%;
+    }
+    .content .division .links a{
+
+        font-size: 80%;
+
+    }
+}
+
+

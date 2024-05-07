@@ -1,0 +1,132 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
+
+}
+
+
+.subinfo{
+
+    width:100%;
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+    position: absolute;
+    background: white;
+    top: -50%;
+    transition: 0.4s ease-out;
+    
+}
+
+.subinfo *{
+
+    text-align: center;
+    width: 100%;
+    border-bottom: 2px solid #F6F6F6;
+    padding: 5%;
+    font-size: 80%;
+    font-weight: 700;
+
+}
+.subinfo *:last-child{
+    border-bottom: 0px;
+}
+
+
+.menu{
+    z-index: 2;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    border-bottom: 2px solid #F6F6F6;
+
+}
+.menu .atl{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    padding: 3%;
+    font-size: 180%;
+    margin-left: 2%;
+}
+
+.menu .info{
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 42%;
+   
+ 
+
+}
+.menu .info *{
+
+   font-size: 94%;
+   margin-left: 1%;
+   font-weight: 700;
+  
+  
+}
+
+.HambBtn{
+    width: 25px;
+    height: 25px;
+}
+@media (min-width: 619px) {
+     
+        .subinfo{
+            
+           display: none;
+           
+        }
+      .HambBtn{
+        position: absolute;
+        left: -100%;
+        margin-left: 10px;
+
+    
+    }
+     
+     
+}
+@media (max-width: 620px) {
+     
+  
+    .HambBtn{
+      display: flex;
+      margin-right: 10%;
+    
+  
+    }
+    .menu .info{
+        position: absolute;
+        left: -100%;
+    }
+  
+    .menu .info *{
+
+        font-size: 70%;
+
+    }
+    .menu .atl{
+        font-size: 120%;
+       
+    }
+
+   
+   
+}
+
+
+
+
+
+
