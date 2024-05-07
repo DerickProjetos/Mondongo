@@ -19,7 +19,11 @@ app.get("/A-Comprehensive-Guide-to-Index-Funds", (req, res)=>{
 app.get("/Continuous-Learning", (req, res)=>{
     res.sendFile(__dirname + "/public/pages/2ThePowerofContinuousLearning.html")
 })
+app.get("/Understanding-Credit-Card-Reward-Systems", (req, res)=>{
 
+    res.sendFile(__dirname + "/public/pages/3UnderstandingCreditCardRewardSystems.html")
+
+})
 
 
 app.get("/disclaime", (req, res)=>{
