@@ -1,0 +1,48 @@
+.UnderBar{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: white;
+    padding-bottom: 1%;
+    margin-top: 7%;
+  
+}
+.UnderBar div{
+
+    display: flex;
+    padding: 6%;
+    justify-content: center;
+    gap: 2%;
+    align-items: center;
+    width: 87%;
+    background: white;
+}
+.UnderBar div:first-child{
+    border-bottom: 1px solid black;
+  
+}
+.UnderBar div *{
+
+   font-size: 90%;
+   font-family: system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  
+
+}
+.UnderBar div a{
+    font-weight: 650;
+}
+
+@media (max-width: 620px) {
+
+    .UnderBar{
+        margin-top: 7%;
+        padding-top: 6%;
+    }
+    .UnderBar div *{
+
+        font-size: 80%;
+
+    }
+
+}
