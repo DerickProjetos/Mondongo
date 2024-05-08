@@ -11,17 +11,22 @@ app.get("", (req, res)=>{
 })
 
 app.get("/A-Deep-Dive-into-Quicken-Loans", (req, res)=>{
-    res.sendFile(__dirname + "/public/pages/0QuickenLoans.html")
+    res.sendFile(__dirname + "/public/pages/articles/0QuickenLoans.html")
 })
 app.get("/A-Comprehensive-Guide-to-Index-Funds", (req, res)=>{
-    res.sendFile(__dirname + "/public/pages/1UnlockingWealth.html")
+    res.sendFile(__dirname + "/public/pages/articles/1UnlockingWealth.html")
 })
 app.get("/Continuous-Learning", (req, res)=>{
-    res.sendFile(__dirname + "/public/pages/2ThePowerofContinuousLearning.html")
+    res.sendFile(__dirname + "/public/pages/articles/2ThePowerofContinuousLearning.html")
 })
 app.get("/Understanding-Credit-Card-Reward-Systems", (req, res)=>{
 
-    res.sendFile(__dirname + "/public/pages/3UnderstandingCreditCardRewardSystems.html")
+    res.sendFile(__dirname + "/public/pages/articles/3UnderstandingCreditCardRewardSystems.html")
+
+})
+app.get("/Demystifying-Cryptocurrency", (req, res)=>{
+
+    res.sendFile(__dirname + "/public/pages/articles/4DemystifyingCryptocurrency.html")
 
 })
 
