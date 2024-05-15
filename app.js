@@ -33,7 +33,11 @@ app.get("/Timeless-Allure-of-Investing-in-Gold", (req, res)=>{
 
     res.sendFile(__dirname + "/public/pages/articles/5TimelessAllureofInvestinginGold.html")
 })
+app.get("/What-is-APR?", (req, res)=>{
 
+    res.sendFile(__dirname + "/public/pages/articles/6WhatisAPR.html")
+
+})
 
 app.get("/disclaime", (req, res)=>{
     res.sendFile(__dirname + "/public/pages/disclaime.html")
